@@ -385,11 +385,7 @@ Run GitHub SEO analysis for this repository and lint the README.
 
 ## FAQ
 
-[#faq](#faq)
-
 ### How do I optimize tokens in Cursor?
-
-[#how-do-i-optimize-tokens-in-cursor](#how-do-i-optimize-tokens-in-cursor)
 
 The biggest token cost in Cursor Agent isn't your prompt — it's the agent re-reading files it
 already saw and re-scanning the whole repo to answer simple questions. Karcursifyeo fixes this
@@ -400,8 +396,6 @@ keep edits surgical, so the agent doesn't speculatively touch unrelated files. S
 
 ### What are good Cursor rules for token optimization?
 
-[#what-are-good-cursor-rules-for-token-optimization](#what-are-good-cursor-rules-for-token-optimization)
-
 Rules that explicitly tell the agent to *query before reading* and *stop when done* save the most
 tokens — open-ended "explore the codebase" instructions are the single biggest source of waste.
 The six rules in [`kaprpathy-guidelines.mdc`](#karpathy-behavioral-guidelines) cover this:
@@ -409,8 +403,6 @@ think-before-coding, simplicity-first, surgical changes, goal-driven execution, 
 lookups, and graph-sync-after-pull.
 
 ### Cool Cursor rules to try
-
-[#cool-cursor-rules-to-try](#cool-cursor-rules-to-try)
 
 If you only want one file, start with `.cursor/rules/kaprpathy-guidelines.mdc` — it's always-on,
 under 100 lines, and pairs with any stack. Combine it with Graphify if your repo is large enough
