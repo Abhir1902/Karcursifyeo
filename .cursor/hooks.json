@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "command": ".cursor/hooks/graphify-sync.sh",
+        "matcher": "Shell"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": ".cursor/hooks/graphify-after-edit.sh"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": ".cursor/hooks/graphify-query-reminder.sh"
+      }
+    ]
+  }
+}

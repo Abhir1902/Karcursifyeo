@@ -1,0 +1,742 @@
+{
+  ".cursor/hooks.json": {
+    "mtime": 1782362790.4549713,
+    "ast_hash": "426b47e7e0368432b077a9da387c5768",
+    "semantic_hash": ""
+  },
+  ".cursor/hooks/graphify-after-edit.sh": {
+    "mtime": 1782362790.4539218,
+    "ast_hash": "e994d4a12d5932743a52e719688877ae",
+    "semantic_hash": ""
+  },
+  ".cursor/hooks/graphify-query-reminder.sh": {
+    "mtime": 1782362790.4543052,
+    "ast_hash": "e0775e527e26fbf484fe5c1bbfa0f9ee",
+    "semantic_hash": ""
+  },
+  ".cursor/hooks/graphify-sync.sh": {
+    "mtime": 1782362790.4547346,
+    "ast_hash": "74edb1b64abd6467062db6b647ea4b39",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/config/scoring.json": {
+    "mtime": 1782362790.461918,
+    "ast_hash": "769aeff4c16d00ce5f3ff012198f5972",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/schema/templates.json": {
+    "mtime": 1782362790.4655356,
+    "ast_hash": "37bfa0fdf6822a0e0e6b1c5fc6efac79",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/__init__.py": {
+    "mtime": 1782362790.4737175,
+    "ast_hash": "eb270c4b7afa0338b23eae0db57bd783",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/a11y_seo_checker.py": {
+    "mtime": 1782362790.4748626,
+    "ast_hash": "0f3e9cc0e819583dbdf4ce447e40ab22",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/ai_crawler_policy_matrix.py": {
+    "mtime": 1782362790.4751751,
+    "ast_hash": "1d9c45f9c6d4ec6be81a5a6c9342f6fa",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/analyze_visual.py": {
+    "mtime": 1782362790.4757988,
+    "ast_hash": "e68319f68571c549da79d44aec1ba08a",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/anchor_text_audit.py": {
+    "mtime": 1782362790.4762352,
+    "ast_hash": "b51776ac59738cc6a923219d28cb49c9",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/answer_block_scanner.py": {
+    "mtime": 1782362790.4765108,
+    "ast_hash": "c83235b0af729d25f825d40e1a93134c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/article_seo.py": {
+    "mtime": 1782362790.4769256,
+    "ast_hash": "b70b89ce61e409ebe5c7a6324ccee980",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/audit_runner.py": {
+    "mtime": 1782362790.4771369,
+    "ast_hash": "e9211ef677a7cc171b2e2e5d6012229d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/broken_links.py": {
+    "mtime": 1782362790.4774172,
+    "ast_hash": "5869bca392daee37a3fa17cdab2c7290",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/cache_compression_checker.py": {
+    "mtime": 1782362790.477831,
+    "ast_hash": "eb2c3034bd3b900bde6d92f8385a34dd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/canonical_checker.py": {
+    "mtime": 1782362790.4779944,
+    "ast_hash": "d70a002c56d4e1f85f88dafe529993d3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/capture_screenshot.py": {
+    "mtime": 1782362790.478389,
+    "ast_hash": "25c3b60816b62b5db8766987abc6317d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/citation_readiness.py": {
+    "mtime": 1782362790.4787192,
+    "ast_hash": "78b06aee1d7e97396d4e7adc89b864be",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/collection_page_checker.py": {
+    "mtime": 1782362790.479009,
+    "ast_hash": "24696c8a3ab3375cc5a4038c9236d837",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/competitor_gap.py": {
+    "mtime": 1782362790.4792461,
+    "ast_hash": "7ae90a64030a23d441ab5c3993f412c3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/content_decay_detector.py": {
+    "mtime": 1782362790.479621,
+    "ast_hash": "63d05d2003eb349e12cdaf896474893a",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/content_intent_matcher.py": {
+    "mtime": 1782362790.4800665,
+    "ast_hash": "1a08f41e54f6f492910045b3a8a43476",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/crawl_audit.py": {
+    "mtime": 1782362790.48034,
+    "ast_hash": "0ab37ef5ef46f0a128e3b43d15b1978c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/critical_request_chain.py": {
+    "mtime": 1782362790.4806442,
+    "ast_hash": "bcfa44bb69b946da1f4ad672a58f4656",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/duplicate_content.py": {
+    "mtime": 1782362790.4809115,
+    "ast_hash": "52fbe99ece59c456178ec1ab92da1560",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/eeat_signal_checker.py": {
+    "mtime": 1782362790.4812665,
+    "ast_hash": "c957a7e09995b9a5e36e442c18694ab1",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/entity_checker.py": {
+    "mtime": 1782362790.4814637,
+    "ast_hash": "b43d1052f29fdc20312dda93a3b80147",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/env_loader.py": {
+    "mtime": 1782362790.4816575,
+    "ast_hash": "6a28406af8494cb4912f6a4c6352be22",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/external_link_quality.py": {
+    "mtime": 1782362790.4819276,
+    "ast_hash": "29944e71053850394b1e9f6f5211c96b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/faceted_nav_audit.py": {
+    "mtime": 1782362790.482089,
+    "ast_hash": "3c287b35170dc0b9a32a5cda6c214510",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/fetch_page.py": {
+    "mtime": 1782362790.4822528,
+    "ast_hash": "f55f62a4f2361b4e694d126a0693c0b7",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/finding_verifier.py": {
+    "mtime": 1782362790.4825106,
+    "ast_hash": "d1fdeeba4065ebcbee661d804ffe813c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/font_audit.py": {
+    "mtime": 1782362790.4828074,
+    "ast_hash": "3faaf555ae43bf00fcdf1f5cf17f3a69",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/freshness_checker.py": {
+    "mtime": 1782362790.4830763,
+    "ast_hash": "c3662524a467c89bdb95eeaf3ba27159",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/generate_report.py": {
+    "mtime": 1782362790.4837356,
+    "ast_hash": "a6074030a9b57796dfae43ce009bd236",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_api.py": {
+    "mtime": 1782362790.4840236,
+    "ast_hash": "48994d53c29d27bb3e48ed2c0a7bf1fd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_community_health.py": {
+    "mtime": 1782362790.484337,
+    "ast_hash": "9ed5ed9dca72e49788aed156a9e80509",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_competitor_research.py": {
+    "mtime": 1782362790.4845994,
+    "ast_hash": "d8b6d0641351096b12869f5051021941",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_readme_lint.py": {
+    "mtime": 1782362790.4849362,
+    "ast_hash": "a8d836ae7d3e489566411fa5a114764a",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_repo_audit.py": {
+    "mtime": 1782362790.4851768,
+    "ast_hash": "474c7dcd746231176948b342650846e3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_search_benchmark.py": {
+    "mtime": 1782362790.4854603,
+    "ast_hash": "4b57254433565122fb0d15d04346e089",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_seo_report.py": {
+    "mtime": 1782362790.4856722,
+    "ast_hash": "bca6cef11fa4c4b5890de5a78a679968",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_traffic_archiver.py": {
+    "mtime": 1782362790.4859602,
+    "ast_hash": "5666498fb66c5e3637450bbbcccd1433",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/github_weekly_scorecard.py": {
+    "mtime": 1782362790.486228,
+    "ast_hash": "80b7208d94520b255bc3cff28693879e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/gsc_checker.py": {
+    "mtime": 1782362790.4865298,
+    "ast_hash": "38fd725a52da376801172d0a812d1172",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/hreflang_checker.py": {
+    "mtime": 1782362790.4868143,
+    "ast_hash": "104794b607f1af23e7877f597ea30343",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/hreflang_sitemap_validator.py": {
+    "mtime": 1782362790.4870872,
+    "ast_hash": "8d69f0c571ec912b9f4de224018b0d05",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/image_inventory.py": {
+    "mtime": 1782362790.4873343,
+    "ast_hash": "d631dc4ffac0c14e79d5804b4feb7254",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/image_weight_audit.py": {
+    "mtime": 1782362790.487613,
+    "ast_hash": "2f7b3db1f4d1643713213aea6cb8f760",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/indexability_matrix.py": {
+    "mtime": 1782362790.4879243,
+    "ast_hash": "98a1708200c70b6402add6dcab7d59c3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/indexnow_checker.py": {
+    "mtime": 1782362790.488387,
+    "ast_hash": "6705f5c85298359c543459f952b01c1b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/internal_links.py": {
+    "mtime": 1782362790.488769,
+    "ast_hash": "9d3f783a634528f3e49dd796a42ca6c5",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/javascript_render_audit.py": {
+    "mtime": 1782362790.489186,
+    "ast_hash": "f8cebfb33f277add84130998ed97c8ed",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/lcp_subparts.py": {
+    "mtime": 1782362790.4895444,
+    "ast_hash": "54be6f6e885a946e6d6a3e8ff817d1b0",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/lib/__init__.py": {
+    "mtime": 1782362790.489856,
+    "ast_hash": "7600f9d5d8b90691c4a4f3a3978c848a",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/lib/safe_http.py": {
+    "mtime": 1782362790.4908414,
+    "ast_hash": "fc51f86376fac30f3bd3d38ba7a217fe",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/lighthouse_runner.py": {
+    "mtime": 1782362790.491213,
+    "ast_hash": "4f31ff9d71c5d116985a0b353f8594bd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/link_profile.py": {
+    "mtime": 1782362790.4914641,
+    "ast_hash": "e6cbe1f15b27bbd9af8611cc8b5f1080",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/llms_txt_checker.py": {
+    "mtime": 1782362790.4917855,
+    "ast_hash": "281bb55a67f65e33d40c1961bd651fc4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/llms_txt_generator.py": {
+    "mtime": 1782362790.4920602,
+    "ast_hash": "06be038d9be566251d1b9e51b5d2e73b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/local_seo_checker.py": {
+    "mtime": 1782362790.492326,
+    "ast_hash": "7c8e39d292ac1119650f95a7a2525e1b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/log_file_analyzer.py": {
+    "mtime": 1782362790.4925814,
+    "ast_hash": "4aef759ecdcc636bafd1dd44bc8652f1",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/mobile_render_checker.py": {
+    "mtime": 1782362790.4928267,
+    "ast_hash": "e2abf16aee84ebe0bff5fc9376bbcd46",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/orphan_pages_from_sitemap.py": {
+    "mtime": 1782362790.4930644,
+    "ast_hash": "9777d03ec0cdfe8c4426ec5067046aaf",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/pagespeed.py": {
+    "mtime": 1782362790.493309,
+    "ast_hash": "ddea18eab836626f0411c4bbf90e2e5e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/parse_html.py": {
+    "mtime": 1782362790.4936051,
+    "ast_hash": "1e4e254222b7b3c71c2ad23aa8e52bfd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/pre_commit_seo_check.sh": {
+    "mtime": 1782362790.493809,
+    "ast_hash": "f707e37c15f1af10a581b45af473ecce",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/product_schema_checker.py": {
+    "mtime": 1782362790.49415,
+    "ast_hash": "cfb4cb2e330f9bd9ef496198c13c343f",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/readability.py": {
+    "mtime": 1782362790.4943955,
+    "ast_hash": "e256478bb40134892226135f68ca0b77",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/redirect_backlink_reclaim.py": {
+    "mtime": 1782362790.4947152,
+    "ast_hash": "4aea1039e5b3243833484c0c48d11806",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/redirect_checker.py": {
+    "mtime": 1782362790.4949596,
+    "ast_hash": "d4d801389f993f1ec142cb2050cc50e1",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/reference_freshness.py": {
+    "mtime": 1782362790.4951026,
+    "ast_hash": "c7e629ac137e17173846fb2805657726",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/repo_docs_site_checker.py": {
+    "mtime": 1782362790.4953475,
+    "ast_hash": "0a9ebdb267b6a08d3e1aa330ff995f90",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/repo_file_inventory.py": {
+    "mtime": 1782362790.495487,
+    "ast_hash": "082ed8ad517b1a69c443f50b4a6ff4aa",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/repo_release_seo.py": {
+    "mtime": 1782362790.4957397,
+    "ast_hash": "1a0824e3d40d3508d6d3b9b4eea83d91",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/repo_social_preview_checker.py": {
+    "mtime": 1782362790.4959836,
+    "ast_hash": "3ef53fd2b07cce837ffa93f3a5dc5f11",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/repo_topic_suggester.py": {
+    "mtime": 1782362790.4962242,
+    "ast_hash": "37dd31d9c4f425bda923f37be77725a4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/review_schema_checker.py": {
+    "mtime": 1782362790.4963765,
+    "ast_hash": "bb6129dd2ab650b3ce61132460388784",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/rich_results_guard.py": {
+    "mtime": 1782362790.4965222,
+    "ast_hash": "d5a700d20e085286e755e0998226bf1c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/robots_checker.py": {
+    "mtime": 1782362790.4967642,
+    "ast_hash": "45343f94a331e0ee0af4b85da0ea7442",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/robots_path_tester.py": {
+    "mtime": 1782362790.496944,
+    "ast_hash": "cde86873c273cd01539bcaa8037fccd3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/schema_diff.py": {
+    "mtime": 1782362790.4970944,
+    "ast_hash": "f3b3defc889b090a6b1efccd2d45eff3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/schema_required_props.py": {
+    "mtime": 1782362790.4972384,
+    "ast_hash": "0254d0d95da1ee829398a6c0ce597501",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/schema_template_generator.py": {
+    "mtime": 1782362790.4975672,
+    "ast_hash": "69846d518c7cb4e4378354c723abe05c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/security_headers.py": {
+    "mtime": 1782362790.4978182,
+    "ast_hash": "398192aabe58e0cb63f80fac49edb388",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/seo_common.py": {
+    "mtime": 1782362790.4981365,
+    "ast_hash": "b23da58c6e4897027a0bbf272bc01b56",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/sitemap_checker.py": {
+    "mtime": 1782362790.4984467,
+    "ast_hash": "c8638e85696f8eadbc88a203e7ef50e3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/sitemap_generator.py": {
+    "mtime": 1782362790.4985857,
+    "ast_hash": "dd015d8ff091022ad7de4efef243acbc",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/social_meta.py": {
+    "mtime": 1782362790.4987397,
+    "ast_hash": "fabcd45cd5f5f57d6d1896d73cfa7184",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/third_party_script_audit.py": {
+    "mtime": 1782362790.4990675,
+    "ast_hash": "1985ccca11451156c8e3d87ccf0a32ca",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/topical_cluster_mapper.py": {
+    "mtime": 1782362790.4993591,
+    "ast_hash": "7275c79c820d5e7960e84e29559e5080",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/url_quality.py": {
+    "mtime": 1782362790.4998956,
+    "ast_hash": "ee2cb81da70b527f5b0fe04b32e6e70e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/validate_schema.py": {
+    "mtime": 1782362790.500189,
+    "ast_hash": "502ca8d4431a6232ae1d27ce7e264ff3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/validate_skill_inventory.py": {
+    "mtime": 1782362790.5004482,
+    "ast_hash": "fabf69f7cd3274b2a70196fa12ac988d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/video_schema_checker.py": {
+    "mtime": 1782362790.500741,
+    "ast_hash": "efc4f7a539a7a51ccd96a8b7cfe30a15",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/visual_regression_snapshot.py": {
+    "mtime": 1782362790.5009894,
+    "ast_hash": "19f8e83ab5d62cad10a66e3b136bcf0c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/scripts/x_robots_header_checker.py": {
+    "mtime": 1782362790.5014827,
+    "ast_hash": "84aa0fe046bdf3d0f5171838374e0da7",
+    "semantic_hash": ""
+  },
+  ".cursor/commands/graphify.md": {
+    "mtime": 1782362790.4532726,
+    "ast_hash": "29152affccaa1e90d1484a11f1e95e87",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/SKILL.md": {
+    "mtime": 1782362790.457037,
+    "ast_hash": "4ed204028d8288e2fb60ff39819ba100",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-content.md": {
+    "mtime": 1782362790.4579995,
+    "ast_hash": "2c96f75d004545eea5f3504dfebfbdc4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-github-analyst.md": {
+    "mtime": 1782362790.4583285,
+    "ast_hash": "c69f12a224b1ae1071dbb11ca3e42add",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-github-benchmark.md": {
+    "mtime": 1782362790.4586613,
+    "ast_hash": "135fe8ba75c602e7c1b6b0397adbbd89",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-github-data.md": {
+    "mtime": 1782362790.4593775,
+    "ast_hash": "a9b12f9da26c624ea440b9da0764709d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-performance.md": {
+    "mtime": 1782362790.4598074,
+    "ast_hash": "bd9d93ffaabb23f4a8c88afe9b377c4a",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-schema.md": {
+    "mtime": 1782362790.4602523,
+    "ast_hash": "28c73e8013dba4fb6e99ea9a2f88945e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-sitemap.md": {
+    "mtime": 1782362790.460729,
+    "ast_hash": "42dc6be6c43d27872acacc6b5f971baf",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-technical.md": {
+    "mtime": 1782362790.461043,
+    "ast_hash": "df3386c91a9fbf81a3a8975a807165cb",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-verifier.md": {
+    "mtime": 1782362790.4612684,
+    "ast_hash": "c6ce319bdccaca600d2e294f83666e15",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/agents/seo-visual.md": {
+    "mtime": 1782362790.4615817,
+    "ast_hash": "65294304e5a6da0d86af17f565655668",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/cwv-thresholds.md": {
+    "mtime": 1782362790.4623866,
+    "ast_hash": "57b34c8aa800b87e08fe79b70e051253",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/eeat-framework.md": {
+    "mtime": 1782362790.462708,
+    "ast_hash": "60087ef394e0d4dcdf2b0a5df1850d52",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/github-api-ops.md": {
+    "mtime": 1782362790.4629264,
+    "ast_hash": "d9b7477804ed980dbada7973418c8acb",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/github-ranking-factors.md": {
+    "mtime": 1782362790.4631307,
+    "ast_hash": "229ee76f5591db8a51e32e4812327d0b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/google-seo-reference.md": {
+    "mtime": 1782362790.4635003,
+    "ast_hash": "30c5fd18f001827320e591f2e38a1044",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/link-building.md": {
+    "mtime": 1782362790.4638524,
+    "ast_hash": "2509ece7328f928619b9d7b2d86965a9",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/llm-audit-rubric.md": {
+    "mtime": 1782362790.4642024,
+    "ast_hash": "a5be819ed8a49609729ec2fef1b45105",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/quality-gates.md": {
+    "mtime": 1782362790.464552,
+    "ast_hash": "3ab01586f386bad9333015dcad5a9648",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/readme-audit-rubric.md": {
+    "mtime": 1782362790.464759,
+    "ast_hash": "396ea44cccee4cda122488fc1cc2bcec",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/references/schema-types.md": {
+    "mtime": 1782362790.4650888,
+    "ast_hash": "8e148d049a877e7035adc0c137beddcd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-aeo.md": {
+    "mtime": 1782362790.4660544,
+    "ast_hash": "fc0ccb2814590195193c01a4e67b637d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-article.md": {
+    "mtime": 1782362790.4662347,
+    "ast_hash": "152f731c6774a16b4789ed03481bf8af",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-audit.md": {
+    "mtime": 1782362790.4664116,
+    "ast_hash": "8081f40ccea2e49dd69f9e51d6678600",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-competitor-pages.md": {
+    "mtime": 1782362790.4667163,
+    "ast_hash": "62610de524d8dca6053c3ac4c4fafd8e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-content.md": {
+    "mtime": 1782362790.4670281,
+    "ast_hash": "7d95b9e8077fc67fcaceff577b884164",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-geo.md": {
+    "mtime": 1782362790.4673188,
+    "ast_hash": "e6d74e59205bfc4121923669ea9feb40",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-github.md": {
+    "mtime": 1782362790.4677203,
+    "ast_hash": "fb34ebea10541abc7f17cfcff22c8d21",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-hreflang.md": {
+    "mtime": 1782362790.4680307,
+    "ast_hash": "295ce961527b06f691866ba51cb86348",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-images.md": {
+    "mtime": 1782362790.468326,
+    "ast_hash": "1381e917e01987662cbb44aa370b5426",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-links.md": {
+    "mtime": 1782362790.468622,
+    "ast_hash": "cdd527f9c1dee39b60909ed01585a313",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-page.md": {
+    "mtime": 1782362790.4688222,
+    "ast_hash": "1014003a08e67bd4abb30726f94820b7",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-plan.md": {
+    "mtime": 1782362790.4691296,
+    "ast_hash": "847dfa6a8bc34845e8363daff0dd2e03",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-programmatic.md": {
+    "mtime": 1782362790.4694345,
+    "ast_hash": "7fe1d3fe6632aa6a70d20da517b09fa9",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-schema.md": {
+    "mtime": 1782362790.4697306,
+    "ast_hash": "7d51218acab435aa3665f553a9694d3d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-sitemap.md": {
+    "mtime": 1782362790.469927,
+    "ast_hash": "a7f8c7a4874207148b6fcf7bb9f3f70f",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/skills/seo-technical.md": {
+    "mtime": 1782362790.470257,
+    "ast_hash": "10562323155622e8f7e943284e157dfd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/agency.md": {
+    "mtime": 1782362790.4708066,
+    "ast_hash": "4965bf78dac73d91f256877c9fdc31f5",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/blog-post.md": {
+    "mtime": 1782362790.4710045,
+    "ast_hash": "6a11d07b4c9f8b85dfa79761f601c5fb",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/ecommerce.md": {
+    "mtime": 1782362790.4713004,
+    "ast_hash": "27412d2c9d27928fbb33d19091fa0113",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/generic.md": {
+    "mtime": 1782362790.4715798,
+    "ast_hash": "248f681d12da7ca62bd95e5173662726",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/github-seo-report.md": {
+    "mtime": 1782362790.4717593,
+    "ast_hash": "b2b653bc88ccd83a1ab5ebec9c7ff059",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/github-weekly-scorecard.md": {
+    "mtime": 1782362790.4719422,
+    "ast_hash": "d28fdd572901bde3ed912cd8deec8f72",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/local-service.md": {
+    "mtime": 1782362790.4722466,
+    "ast_hash": "458c6f75deb679b67eeafdab33045df1",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/news-article.md": {
+    "mtime": 1782362790.4724586,
+    "ast_hash": "cf6b75e998daa1f98bd70fcaa25518d7",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/publisher.md": {
+    "mtime": 1782362790.472746,
+    "ast_hash": "115e24b12341831a04d03d6dfdf52a86",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/saas.md": {
+    "mtime": 1782362790.473026,
+    "ast_hash": "240015c202035be51cd7bbd14a111116",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/seo/resources/templates/technical-article.md": {
+    "mtime": 1782362790.4732168,
+    "ast_hash": "6c1b21bb6c336aadbac882477de6bee5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782363742.7108662,
+    "ast_hash": "9bb28573a211fe35bca9417ec4539112",
+    "semantic_hash": ""
+  }
+}
