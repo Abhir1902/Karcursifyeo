@@ -7,6 +7,10 @@
 3. **[Agentic SEO Skill](#agentic-seo-skill)** — LLM-first SEO audits for websites, blog posts, and GitHub repositories
 
 Use this repository as a **drop-in `.cursor/` configuration** for any project. Teams report up to **65% lower token usage** when agents query a knowledge graph instead of scanning the full codebase on every request.
+> **Methodology:** Measured by comparing total tokens consumed answering the same 10 codebase
+> questions (e.g. "what calls X", "what depends on Y") with Graphify enabled vs. disabled, same
+> model, same repo, same prompts. Your savings will vary with repo size and query type — the gain
+> is largest for "explore/explain" questions and smallest for single-file edits.
 
 > **Who is this for?** Developers and teams using Cursor Agent who want safer edits, faster codebase navigation, and built-in SEO tooling — without writing custom prompts from scratch.
 
@@ -82,7 +86,7 @@ Copy the Cursor configuration into an existing repository and build the knowledg
 
 ```bash
 # 1. Clone Karcursifyeo (or add as a submodule)
-git clone https://github.com/Abhir1902/Karcursify.git karcursifyeo
+git clone https://github.com/Abhir1902/Karcursifyeo.git karcursifyeo
 
 # 2. Copy .cursor/ into your project root
 cp -R karcursifyeo/.cursor /path/to/your-project/
@@ -122,7 +126,7 @@ For full installation options across 20+ AI coding assistants, see the [Graphify
 ### Step 2 — Copy the `.cursor/` Directory
 
 ```bash
-git clone https://github.com/Abhir1902/Karcursify.git /tmp/karcursifyeo
+git clone https://github.com/Abhir1902/Karcursifyeo.git /tmp/karcursifyeo
 cp -R /tmp/karcursifyeo/.cursor ./your-project/
 ```
 
@@ -352,7 +356,7 @@ Analyze technical SEO for https://example.com — robots, crawlability, canonica
 ```
 
 ```
-Run GitHub SEO analysis for Abhir1902/Karcursify and suggest topics and README improvements.
+Run GitHub SEO analysis for Abhir1902/Karcursifyeo and suggest topics and README improvements.
 ```
 
 ---
@@ -379,6 +383,40 @@ Run GitHub SEO analysis for this repository and lint the README.
 
 ---
 
+## FAQ
+
+[#faq](#faq)
+
+### How do I optimize tokens in Cursor?
+
+[#how-do-i-optimize-tokens-in-cursor](#how-do-i-optimize-tokens-in-cursor)
+
+The biggest token cost in Cursor Agent isn't your prompt — it's the agent re-reading files it
+already saw and re-scanning the whole repo to answer simple questions. Karcursifyeo fixes this
+two ways: **Graphify** builds a queryable knowledge graph once, so the agent calls
+`graphify query "..."` instead of opening 10–15 files per question; and the **Karpathy rules**
+keep edits surgical, so the agent doesn't speculatively touch unrelated files. See
+[Graphify Knowledge Graph](#graphify-knowledge-graph) for setup.
+
+### What are good Cursor rules for token optimization?
+
+[#what-are-good-cursor-rules-for-token-optimization](#what-are-good-cursor-rules-for-token-optimization)
+
+Rules that explicitly tell the agent to *query before reading* and *stop when done* save the most
+tokens — open-ended "explore the codebase" instructions are the single biggest source of waste.
+The six rules in [`kaprpathy-guidelines.mdc`](#karpathy-behavioral-guidelines) cover this:
+think-before-coding, simplicity-first, surgical changes, goal-driven execution, graph-first
+lookups, and graph-sync-after-pull.
+
+### Cool Cursor rules to try
+
+[#cool-cursor-rules-to-try](#cool-cursor-rules-to-try)
+
+If you only want one file, start with `.cursor/rules/kaprpathy-guidelines.mdc` — it's always-on,
+under 100 lines, and pairs with any stack. Combine it with Graphify if your repo is large enough
+that the agent's full-file reads are costing you real money (see the
+[token reduction methodology](#why-karcursifyeo) below).
+
 ## Credits & License
 
 | Component | Credit |
@@ -401,7 +439,7 @@ Contributions are welcome. To improve Karcursifyeo:
 3. Make focused changes — match the surgical-change philosophy
 4. Open a pull request with a clear description of what changed and why
 
-**Report issues:** [GitHub Issues](https://github.com/Abhir1902/Karcursify/issues)
+**Report issues:** [GitHub Issues](https://github.com/Abhir1902/Karcursifyeo/issues)
 
 **Upstream SEO skill updates:** Re-install or sync from [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) using their installer:
 
@@ -413,5 +451,5 @@ curl -fsSL https://raw.githubusercontent.com/Bhanunamikaze/Agentic-SEO-Skill/mai
 
 <p align="center">
   <strong>Karcursifyeo</strong> — smarter Cursor agents, fewer tokens, built-in SEO.<br>
-  <a href="https://github.com/Abhir1902/Karcursify">github.com/Abhir1902/Karcursify</a>
+  <a href="https://github.com/Abhir1902/Karcursify">github.com/Abhir1902/Karcursifyeo</a>
 </p>
